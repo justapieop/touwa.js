@@ -22,7 +22,7 @@ export interface ComicResponse {
 export interface Comic {
     name?: string,
     image_url?: string
-    uploader?: Uploader,
+    uploaders?: Uploader[],
     other_names?: OtherName[],
     tags?: Tag[],
     authors?: Author[],
@@ -34,7 +34,6 @@ export interface Comic {
     other_parts?: OtherPart[],
     download_link?: string,
     group_external_link?: string,
-    co_uploader: CoUploader,
     likes?: number,
     dislikes?: number,
     chapters?: Chapter[]
@@ -72,11 +71,6 @@ export interface Doujin {
 }
 
 export interface OtherPart {
-    name?: string,
-    link?: string
-}
-
-export interface CoUploader {
     name?: string,
     link?: string
 }
@@ -147,7 +141,8 @@ export interface TagComic {
     chapter_status?: string,
     other_names?: OtherName[],
     tags?: Tag[],
-    views?: number
+    views?: number,
+    id?: number
 }
 
 export interface SearchResponse extends BaseResponse {
