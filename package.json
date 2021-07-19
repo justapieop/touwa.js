@@ -1,13 +1,14 @@
 {
-  "name": "touwajs",
+  "name": "touwa.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "description": "Unofficial API Wrapper for Touwa API",
+  "main": "lib/Index.js",
+  "types": "lib/Index.d.ts",
   "files": [
     "lib"
   ],
   "devDependencies": {
+    "@types/node": "^16.3.3",
     "typescript": "^4.3.5"
   },
   "scripts": {
@@ -16,12 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justapieop/touwajs.git"
+    "url": "git+https://github.com/justapieop/touwa.js.git"
   },
   "author": "JustAPie",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/justapieop/touwajs/issues"
+    "url": "https://github.com/justapieop/touwa.js/issues"
   },
-  "homepage": "https://github.com/justapieop/touwajs#readme"
+  "homepage": "https://github.com/justapieop/touwa.js#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }

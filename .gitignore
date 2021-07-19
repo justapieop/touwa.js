@@ -133,3 +133,6 @@ dist
 # Ignore all local history of files
 .history
 .ionide
+
+# Build files
+lib/
