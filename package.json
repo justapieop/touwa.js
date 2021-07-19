@@ -1,0 +1,27 @@
+{
+  "name": "touwajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justapieop/touwajs.git"
+  },
+  "author": "JustAPie",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/justapieop/touwajs/issues"
+  },
+  "homepage": "https://github.com/justapieop/touwajs#readme"
+}
