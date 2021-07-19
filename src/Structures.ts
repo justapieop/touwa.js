@@ -16,7 +16,7 @@ export interface LatestComic {
 }
 
 export interface ComicResponse {
-    data: Comic[]
+    data: Comic
 }
 
 export interface Comic {
