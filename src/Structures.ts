@@ -120,6 +120,10 @@ export interface CharacterResponse extends BaseResponse {
     data?: GenericComic[]
 }
 
+export interface DoujinResponse extends BaseResponse {
+    data?: GenericComic[]
+}
+
 export interface TagResponse extends BaseResponse {
     data?: ResponseTagObject[]
 }
