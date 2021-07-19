@@ -42,6 +42,6 @@ export class TouwaJS {
      * @returns {Promise} Promise object containing ComicResponse object
      */
     public async getComicByID(id: string): Promise<ComicResponse | null> {
-        return this.getRawInfo("/comic/latest");
+        return this.getRawInfo(`/comic/${id}`);
     }
 }
