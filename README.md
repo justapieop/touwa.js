@@ -1,6 +1,18 @@
 # touwa.js
 Unofficial API Wrapper for Touwa API
 
-WIP - Coming Soon
+This is an unofficial API Wrapper for Touwa API. This wrapper may subject to change without notices if the original api changes its structure
 
-This wrapper is currently unstable and may subject to change. Please wait until further notifications are made
+# Documentation
+
+Documentation can be found [here](https://touwajs.justapie.tk)
+
+# Contribute
+
+You are free to contribute to this repository. Be sure to resolve bugs before making a PR
+
+# Disclaimer
+
+I'm not affiliated with the Hentaivn.tv team and i don't have permissions to change the original API. 
+
+If you have any help on Endpoints' errors, please contact Hentaivn.tv team for support
