@@ -10,7 +10,8 @@
     "lib": [
       "ES2020",
       "ES2020.Promise"
-    ]
+    ],
+    "esModuleInterop": true
   },
   "include": [
     "src"
