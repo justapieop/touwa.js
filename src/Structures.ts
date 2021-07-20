@@ -41,8 +41,7 @@ export interface Comic {
 
 export interface Uploader {
     name?: string,
-    link?: string,
-    badge?: string
+    link?: string
 }
 
 export interface OtherName {
@@ -125,28 +124,7 @@ export interface DoujinResponse extends BaseResponse {
 }
 
 export interface TagResponse extends BaseResponse {
-    data?: ResponseTagObject[]
-}
-
-export interface ResponseTagObject {
-    tag_info?: TagInfo,
-    comics?: TagComic[]
-}
-
-export interface TagInfo {
-    name?: string,
-    image_url?: string,
-    description?: string
-}
-
-export interface TagComic {
-    name?: string,
-    link?: string,
-    chapter_status?: string,
-    other_names?: OtherName[],
-    tags?: Tag[],
-    views?: number,
-    id?: number
+    data?: GenericComic[]
 }
 
 export interface SearchResponse extends BaseResponse {
