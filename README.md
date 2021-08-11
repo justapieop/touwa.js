@@ -3,6 +3,8 @@ Unofficial API Wrapper for Touwa API
 
 This is an unofficial API Wrapper for Touwa API. This wrapper may subject to change without notices if the original api changes its structure
 
+**NOTE**: This wrapper will be archived until HVN releases its official API
+
 # Documentation
 
 Documentation can be found [here](https://touwajs.justapie.tk)
